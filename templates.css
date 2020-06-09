@@ -1,0 +1,51 @@
+body {
+    font-family: Verdana, Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    background-color: #fed330;
+  }
+  
+  .pos {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+  }
+
+  .text {
+      color:black;
+      width:300px;
+      text-align: center;
+  }
+  
+  header, section, article, footer {
+    margin: 10px;
+    padding: 20px;
+  }
+
+  .navbar {
+    text-align: center;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    border: 1px solid white;
+    background-color: #26de81;
+  }
+
+  .navbar ul {
+    display: inline-block;
+    justify-content: space-around;
+
+
+  }
+
+  .navbar li {
+    display: inline;
+    margin: 5px;
+    justify-content: space-around;
+    color: white;
+  }
+
+  footer {
+    display: flex;
+    justify-content: center;
+  }
